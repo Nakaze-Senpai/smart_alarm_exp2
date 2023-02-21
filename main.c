@@ -147,7 +147,7 @@ extern const uint8_t TM1637_digitToSegment[] = {
 	TM1637_SPAT_E,
 	TM1637_SPAT_F
 };
-
+/***************** Hi */
 static inline uint8_t TM1637_writeByte(uint8_t data) {
 	// Write data byte
 	for (uint8_t i = 0; i < 8; i++) {
